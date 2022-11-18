@@ -145,6 +145,11 @@ a:hover {
   background: var(--main-color);
 }
 
+.lioffer:hover {
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  cursor: pointer;
+}
+
 .borderportfolio {
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
