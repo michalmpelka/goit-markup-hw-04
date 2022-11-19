@@ -91,8 +91,8 @@ body {
 }
 
 .icon-envelope {
-  display: flex;
   margin-right: 10px;
+  
 }
 
 .icon-smartphone {
@@ -209,8 +209,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--link2-color);
   text-decoration: none;
-  padding-top: 32px;
   padding-right: 46px;
+  display: flex;
+  align-items: center;
 }
 
 .h1components {
