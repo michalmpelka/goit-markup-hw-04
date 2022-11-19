@@ -56,9 +56,10 @@ body {
   border-bottom-color: var(--border-bottom-color);
 }
 
-a:hover {
+.link2:hover {
   color: var(--main2-color);
   transition: all 0.3s;
+  stroke: var(--main2-color);
 }
 
 .logo1 {
@@ -87,6 +88,16 @@ a:hover {
   flex-grow: 1;
   justify-content: space-between;
   gap: 9px;
+}
+
+.icon-envelope {
+  display: flex;
+  margin-right: 10px;
+}
+
+.icon-smartphone {
+  display: flex;
+  margin-right: 10px;
 }
 
 .list1 {
