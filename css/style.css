@@ -345,7 +345,11 @@ body {
   color: var(--link1-color);
   font-size: 16px;
   letter-spacing: 0.03em;
+  font-weight: 500;
+  line-height: 1.19;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .footercomponents {
