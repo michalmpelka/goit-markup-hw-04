@@ -283,11 +283,15 @@ body {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .psection2 {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--link2-color);
 }
