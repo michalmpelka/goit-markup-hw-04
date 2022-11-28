@@ -90,9 +90,20 @@ body {
   gap: 9px;
 }
 
+.icon1 {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: var(--background3-color);
+  border-radius: 4px;
+}
+
 .icon-envelope {
   margin-right: 10px;
-  
 }
 
 .icon-smartphone {
