@@ -33,6 +33,7 @@ body {
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --button-active-color: #21b4f3;
   --border-color: #eeeeee;
+  --social-icons-color: #afb1bb;
 }
 
 .header-wrapper1 {
@@ -339,6 +340,45 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
   padding-top: 10px;
+}
+
+.socialiconslink {
+  display: flex;
+  padding: 0px 32px;
+  margin-top: 16px;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialiconslist {
+  list-style: none;
+}
+
+.teamsocialicons {
+  width: 44px;
+  height: 44px;
+}
+
+.teamsociallinks {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+  --color1: var(--social-icons-color);
+  background-color: var(--background3-color);
+  text-decoration: none;
+}
+
+.teamsociallinks:hover,
+.teamsociallinks:focus {
+  --color1: var(--main-color);
+  background-color: var(--main2-color);
+}
+
+.teamsocialicon {
+  margin: 12px 0px 0px 12px;
+  fill: currentColor;
 }
 
 .h3center {
