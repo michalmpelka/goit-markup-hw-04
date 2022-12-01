@@ -34,6 +34,7 @@ body {
   --button-active-color: #21b4f3;
   --border-color: #eeeeee;
   --social-icons-color: #afb1bb;
+  /* --customerssection-color: #e5e5e5; */
 }
 
 .header-wrapper1 {
@@ -141,10 +142,6 @@ a:hover {
   padding: 0;
   margin-top: 9px;
   margin-bottom: 0;
-}
-
-.section5 {
-  margin-bottom: 52px;
 }
 
 .section-buttons {
@@ -321,6 +318,13 @@ a:hover {
   padding: 94px 0;
 }
 
+.section5 {
+  /* margin-bottom: 52px; */
+  color: var(--main-color);
+  height: 372px;
+  padding: 94px 0;
+}
+
 .list3 {
   list-style-type: none;
   display: flex;
@@ -328,6 +332,9 @@ a:hover {
   justify-content: space-between;
   padding: 0;
   gap: 30px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
 .liteam {
@@ -345,6 +352,36 @@ a:hover {
   letter-spacing: 0.03em;
   margin: 0;
   padding-top: 10px;
+}
+
+.customers {
+  width: 170px;
+  height: 90px;
+}
+
+.customerslink {
+  width: 170px;
+  height: 90px;
+  display: block;
+  border: 1px solid;
+  border-color: var(--social-icons-color);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.customerslink:hover,
+.customerslink:focus {
+  border-color: var(--main2-color);
+  --color1: var(--main2-color);
+  --color2: var(--main2-color);
+}
+
+.customersicon {
+  fill: var(--social-icons-color);
+}
+.customersicon:hover,
+.customersicon:focus {
+  fill: var(--main2-color);
 }
 
 .socialiconslink {
