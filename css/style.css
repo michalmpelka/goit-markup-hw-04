@@ -63,6 +63,11 @@ body {
   stroke: var(--main2-color);
 }
 
+a:hover {
+  color: var(--main2-color);
+  transition: all 0.3s;
+}
+
 .logo1 {
   font-family: "Raleway";
   font-size: 26px;
