@@ -34,7 +34,7 @@ body {
   --button-active-color: #21b4f3;
   --border-color: #eeeeee;
   --social-icons-color: #afb1bb;
-  /* --customerssection-color: #e5e5e5; */
+  --footer-icons-color: rgba(255, 255, 255, 0.1);
 }
 
 .header-wrapper1 {
@@ -242,7 +242,6 @@ a:hover {
 }
 
 .section1 {
-  /* background-color: var(--background-color); */
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(255, 255, 255, 0)),
     url(../images/image17.jpg);
   background-size: cover;
@@ -321,10 +320,13 @@ a:hover {
 }
 
 .section5 {
-  /* margin-bottom: 52px; */
   color: var(--main-color);
   height: 372px;
   padding: 94px 0;
+}
+
+.section6 {
+  margin-bottom: 52px;
 }
 
 .list3 {
@@ -509,4 +511,56 @@ a:hover {
   background-color: var(--main2-color);
   color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footercolumns {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footersocial {
+  margin-left: 70px;
+  width: 206px;
+}
+
+.footersocialtext {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.footersociallist {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.footersocialorder {
+  width: 44px;
+  height: 44px;
+}
+
+.footersociallink {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+  fill: var(--main-color);
+  background-color: var(--footer-icons-color);
+}
+
+.footersociallink:hover,
+.footersociallink:focus {
+  background-color: var(--main2-color);
+}
+
+.footersociallogo {
+  margin: 12px 0px 0px 12px;
 }
