@@ -61,7 +61,7 @@ body {
 .link2:hover {
   color: var(--main2-color);
   transition: all 0.3s;
-  stroke: var(--main2-color);
+  fill: var(--main2-color);
 }
 
 a:hover {
@@ -111,11 +111,13 @@ a:hover {
 
 .icon-envelope {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .icon-smartphone {
   display: flex;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .list1 {
@@ -367,13 +369,12 @@ a:hover {
   border-color: var(--social-icons-color);
   border-radius: 4px;
   padding: 16px 32px;
+  text-decoration: none;
 }
 
 .customerslink:hover,
 .customerslink:focus {
   border-color: var(--main2-color);
-  --color1: var(--main2-color);
-  --color2: var(--main2-color);
 }
 
 .customersicon {
@@ -407,20 +408,24 @@ a:hover {
   height: 44px;
   display: block;
   border-radius: 50%;
-  --color1: var(--social-icons-color);
+  fill: var(--social-icons-color);
   background-color: var(--background3-color);
   text-decoration: none;
 }
 
 .teamsociallinks:hover,
 .teamsociallinks:focus {
-  --color1: var(--main-color);
   background-color: var(--main2-color);
 }
 
 .teamsocialicon {
   margin: 12px 0px 0px 12px;
-  fill: currentColor;
+  fill: var(--social-icons-color);
+}
+
+.teamsocialicon:hover,
+.teamsocialicon:focus {
+  fill: var(--main-color);
 }
 
 .h3center {
