@@ -377,6 +377,7 @@ a:hover {
 .customerslink:hover,
 .customerslink:focus {
   border-color: var(--main2-color);
+  transition: all 0.3s;
 }
 
 .customersicon {
@@ -385,6 +386,7 @@ a:hover {
 .customersicon:hover,
 .customersicon:focus {
   fill: var(--main2-color);
+  transition: all 0.3s;
 }
 
 .socialiconslink {
